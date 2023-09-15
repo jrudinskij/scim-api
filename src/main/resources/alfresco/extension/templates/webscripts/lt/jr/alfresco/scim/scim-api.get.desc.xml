@@ -1,0 +1,8 @@
+<webscript>
+    <shortname>SCIM API GET method</shortname>
+    <url>/jr/scim/{resource}</url>
+    <url>/jr/scim/{resource}/{id}</url>
+    <authentication>user</authentication>
+    <format default="json">argument</format>
+    <lifecycle>internal</lifecycle>
+</webscript>
