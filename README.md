@@ -20,5 +20,5 @@ For instance you may utilize the jwt-auth addon for JWT token authentication (ht
 It is strongly recommended not to delete any user in Alfresco since it may cause integrity issues for either Alfresco data as well as for Azure AD provisioning.  
 If you delete a user in Alfresco the Azure AD will not be able to find the user, and report an error.  
 The Azure AD Provisioning service will not be able to recreate the user due to Azure AD SCIM client implementation subtleties.  
-The only way to fix the error is to delete the enterprise application you configured for provisioning and create a new one using the steps provided above.  
-To delete an enterprise application use the Properties → Delete menu on the application page.
+The only way to fix the error is to delete the enterprise application you configured for provisioning in Azure portal and create a new one.  
+To delete an enterprise application use the Properties → Delete menu on the Enterprise application page.
