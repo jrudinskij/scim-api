@@ -8,6 +8,8 @@ The addon is built to be compatible with Alfresco 5.2 and above.
 - The addon allows you automatically create and update users and groups during sync process with external identity provider.
 - The sync process is initiated and controlled by external system (e.g. Azure AD Provisioning Service)
 - Alfresco is not required to know anything about external identity provider.
+## Installation
+
 ## Configuration
 The external identity provider must be configured to enable automatic provisioning through SCIM.  
 Use the following SCIM API endpoint for provisioning configuration:
